@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+  </head>
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__link" href="index.html">
+        <img class="main-header__logo" src="img/logo-mobyle.svg" width="86" height="35" alt="Интеренет-магазин игрушек Мишка">
+      </a>
+      <button class="main-header__toggle" type="button">
+        <span class="visually-hidden">Открыть меню сайта</span>
+      </button>
+      <nav class="main-header__navigation">
+        <ul class="main-header__menu menu">
+          <li class="menu__item">
+            <a class="menu__link">Каталог товаров</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="form.html">Вязание на заказ</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Поиск по сайту</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Корзина: пока пуста</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-container catalog-page">
+      <section class="catalog">
+        <h1 class="catalog__title">Каталог товаров</h1>
+        <ul class="catalog__list">
+          <li class="catalog__item product-card">
+            <img class="product-card__image" src="img/catalog/product-1-mobile@1x.jpg"
+              width="260" height="195" alt="Зайчик-попрыгайчик">
+            <div class="product-card__wrapper">
+              <p class="product-card__name">Зайчик-попрыгайчик</p>
+              <span class="product-card__description">Рост 30 см, вес 200 г</span>
+              <span class="product-card__price">1 200 руб.</span>
+            </div>
+          </li>
+
+          <li class="catalog__item product-card">
+            <img class="product-card__image" src="img/catalog/product-2-mobile@1x.jpg"
+              width="260" height="195" alt="Корзинка для белья">
+            <div class="product-card__wrapper">
+              <p class="product-card__name">Корзинка для белья</p>
+              <span class="product-card__description">Диаметр 15 см, высота 10 см</span>
+              <span class="product-card__price">690 руб.</span>
+            </div>
+          </li>
+
+          <li class="catalog__item product-card">
+            <img class="product-card__image" src="img/catalog/product-3-mobile@1x.jpg"
+              width="260" height="195" alt="Большая корзинка для игрушек">
+            <div class="product-card__wrapper">
+              <p class="product-card__name">Большая корзинка для игрушек</p>
+              <span class="product-card__description">Диаметр 30 см, высота 30 см</span>
+              <span class="product-card__price">1 500 руб.</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="video">
+        <h2 class="video__title">Процесс производства</h2>
+        <img class="Video__preview" src="img/video-mobile@1x.jpg" width="260" height="150" alt="Процесс производства">
+        <p class="video__description">
+          По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
+        </p>
+        <a class="video__link button" href="#">СДелать заказ</a>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a href="http://vk.com" class="social__link">
+              <span class="visually-hidden">Вк</span>
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a href="http://youtube.com" class="social__link">
+              <span class="visually-hidden">YouTube</span>
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a href="http://telegram.org" class="social__link">
+              <span class="visually-hidden">Telegram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="copyright">
+        <a class="copyright__text" href="http://htmlacademy.ru">
+          Разработано
+          <svg width="27" height="34"></svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
